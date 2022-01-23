@@ -5,3 +5,25 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+html,
+body {
+  overflow-x: hidden;
+}
+
+.carousel-item {
+  max-height: 80vh;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 768px) {
+}
