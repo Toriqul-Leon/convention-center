@@ -32,3 +32,25 @@ body {
   }
 }
 /* !End of Slider/Carousel */
+
+/* !Cards */
+.border-shadow {
+  box-shadow: -5px 1px 11px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -5px 1px 11px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -5px 1px 11px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* !Float Button */
+.float-main {
+  position: relative;
+}
+.float-button {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  border-radius: 5px;
+  box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* !End of Float Button */
