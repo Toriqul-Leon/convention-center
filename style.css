@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
 }
 
+/* !Slider/Carousel */
 .carousel-item {
   max-height: 80vh;
   background: no-repeat center;
@@ -30,3 +31,4 @@ body {
     font-size: 20px;
   }
 }
+/* !End of Slider/Carousel */
