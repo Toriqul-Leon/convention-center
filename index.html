@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- !Fontawesome -->
+    <!-- !Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- !FontAwesome -->
     <script
       src="https://kit.fontawesome.com/f04fbe321d.js"
       crossorigin="anonymous"
@@ -509,16 +514,18 @@
       </section>
       <!-- !End of Accordion -->
     </main>
-    <!-- !Contact-->
-    <button
-      class="btn btn-primary"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasBottom"
-      aria-controls="offcanvasBottom"
-    >
-      Send Your Message
-    </button>
+    <!-- !Contact (EXTRA PART)-->
+    <div class="text-center py-2">
+      <button
+        class="btn btn-primary fs-3 fw-bolder animate__animated animate__pulse animate__infinite infinite"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasBottom"
+        aria-controls="offcanvasBottom"
+      >
+        Click Here to Message Us
+      </button>
+    </div>
 
     <div
       class="offcanvas offcanvas-bottom bg-dark"
@@ -571,7 +578,8 @@
         </form>
       </div>
     </div>
-    <!-- !End Of contact -->
+    <!-- !End of Contact (EXTRA PART)-->
+
     <!-- !Footer -->
     <footer
       class="bg-dark text-white py-5 d-flex flex-lg-row flex-column-reverse justify-content-between align-items-center"
