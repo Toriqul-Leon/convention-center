@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Convention Center</title>
+    <title>Dhaka Convention Center</title>
   </head>
   <body>
     <header>
@@ -162,6 +162,7 @@
       </section>
       <!-- !Slider/Carousel -->
     </header>
+
     <main>
       <!-- !Toast -->
       <div
@@ -171,8 +172,8 @@
         aria-atomic="true"
       >
         <div class="d-flex">
-          <div class="toast-body border-5 border-start border-primary px-5">
-            <i class="fas fa-gift"></i> 20% off first Booking 🎉
+          <div class="toast-body border-5 border-start border-primary px-4">
+            <i class="fas fa-gift"></i> 20% off on your first Booking 🎉
           </div>
           <button
             type="button"
@@ -183,6 +184,7 @@
         </div>
       </div>
       <!-- !End of Toast -->
+
       <!-- !Cards -->
       <section class="container py-5 overflow-hidden text-capitalize">
         <h1 class="text-center pb-5 fw-bolder">OUR PACKAGES</h1>
@@ -223,7 +225,7 @@
               >
                 <button
                   type="button"
-                  class="btn btn-white text-primary btn-lg shadow-sm bg-body rounded-pill fw-bold"
+                  class="btn btn-white text-white btn-lg shadow-sm btn-primary rounded-pill fw-bold"
                 >
                   Choose Plan
                 </button>
@@ -268,7 +270,7 @@
               >
                 <button
                   type="button"
-                  class="btn btn-white text-primary btn-lg shadow-sm bg-body rounded-pill fw-bold"
+                  class="btn btn-white text-white btn-lg shadow-sm btn-primary rounded-pill fw-bold"
                 >
                   Choose Plan
                 </button>
@@ -317,7 +319,7 @@
                     <small>pay as plan</small>
                   </li>
                 </ul>
-                <button class="btn-danger float-button">Limited Offer</button>
+                <button class="btn-danger float-button">EXCLUSIVE</button>
               </div>
               <div
                 class="border-0 bg-primary d-flex justify-content-center align-items-center pb-3 bg-primary"
@@ -367,7 +369,7 @@
               >
                 <button
                   type="button"
-                  class="btn btn-white text-primary btn-lg shadow-sm bg-body rounded-pill fw-bold"
+                  class="btn btn-white text-white btn-lg shadow-sm btn-primary rounded-pill fw-bold"
                 >
                   Choose Plan
                 </button>
@@ -507,13 +509,75 @@
       </section>
       <!-- !End of Accordion -->
     </main>
+    <!-- !Contact-->
+    <button
+      class="btn btn-primary"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasBottom"
+      aria-controls="offcanvasBottom"
+    >
+      Send Your Message
+    </button>
 
+    <div
+      class="offcanvas offcanvas-bottom bg-dark"
+      tabindex="-1"
+      id="offcanvasBottom"
+      aria-labelledby="offcanvasEmailLabel"
+      style="height: 50vh"
+    >
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-danger" id="offcanvasEmailabel">
+          EMAIL
+        </h1>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex w-75 flex-column m-auto small">
+        <form class="w-100">
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                aria-label="Last Name"
+                placeholder="Last Name"
+                class="form-control"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                aria-label="Last Name"
+                placeholder="Last Name"
+                class="form-control"
+              />
+            </div>
+            <div class="col-12 mt-3">
+              <textarea
+                class="w-100"
+                placeholder="Write Your Message"
+                rows="8"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-outline-danger mt-3 w-100">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- !End Of contact -->
     <!-- !Footer -->
     <footer
       class="bg-dark text-white py-5 d-flex flex-lg-row flex-column-reverse justify-content-between align-items-center"
     >
       <div class="py-3 py-lg-0 px-5">
-        <small>copyright &copy: 2020 bike. All rights reserved</small>
+        <small>&copy 2022. All rights reserved</small>
       </div>
       <div>
         <h5 class="text-center">Get The App</h5>
