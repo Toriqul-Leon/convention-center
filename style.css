@@ -11,12 +11,10 @@ body {
 }
 
 /* !Slider/Carousel */
-.carousel-item {
-  max-height: 80vh;
-  background: no-repeat center;
-  background-size: cover;
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
 }
-
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -29,6 +27,10 @@ body {
 @media (max-width: 768px) {
   .carousel-item h1 {
     font-size: 20px;
+  }
+  .carousel-item img {
+    height: 584px;
+    background: cover scroll center scroll;
   }
 }
 /* !End of Slider/Carousel */
